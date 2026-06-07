@@ -79,7 +79,7 @@ You can open `Long_Hair_Working.ipynb` in Jupyter, Google Colab, or VS Code to r
 
 ## 🔗 Links
 
-* **Live App**: [Long Hair Detection App](https://longhairdetection-app.streamlit.app/)
+* **Live App**: [Long Hair Detection App](https://longhairdetectionsub-app.streamlit.app/)
 * **GitHub Repo**: [Long Hair Detection Repository](https://github.com/KVAlwaysLearning/Long_Hair_Detection_Sub)
 
 Visuals:
