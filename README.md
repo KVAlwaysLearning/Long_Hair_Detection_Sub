@@ -7,7 +7,7 @@ An AI-powered application designed to analyze facial features to determine age a
 * **`Long_Hair_Working.ipynb`**: The research notebook containing the feature engineering, model training, and performance evaluation for long/short hair classification.
 * **`app.py`**: A Streamlit web application providing a deep-analysis interface for real-time face image processing.
 * **`requirements.txt`**: A comprehensive list of dependencies and packages required to run the application.
-* **`packages.txt`**: A list of packages to run the app om streamlit-hub
+* **`packages.txt`**: A list of packages to run the app on streamlit-hub
 
 ## 🚀 Features
 
@@ -16,7 +16,7 @@ An AI-powered application designed to analyze facial features to determine age a
 * **Age Estimation**: Provides estimated age based on grouped classification models.
 * **Deep Analysis Pipeline**: Processes uploaded face images through multiple concurrent models to extract specific insights.
 
-## 🛠️ Setup & Installation
+## 🔧 Setup & Installation
 
 ### 1. Prerequisites
 
