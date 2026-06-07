@@ -1,0 +1,10 @@
+opencv-python-headless
+mediapipe
+streamlit
+gdown
+torch
+torchvision
+transformers
+pillow
+numpy
+matplotlib
