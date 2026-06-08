@@ -30,11 +30,16 @@ def setup_models():
     base_dir = "Models"
     if not os.path.exists(base_dir):
         # Ensure this actually finishes before proceeding
-        gdown.download_folder(url="https://drive.google.com/drive/folders/1xLgUm3YgyvgzaL86LD_QFYPTRkHmU_Sd", output=base_dir, quiet=False)
+        folder_id = st.secrets["drive_folders"]["long_hair_models"]
+        url = f"https://drive.google.com/drive/folders/{folder_id}"
+
+        # Download the entire folder securely
+        gdown.download_folder(url=url, output=base_dir, quiet=False)
 
     # 2. PATH DISCOVERY PHASE
     # Define these clearly so there is no ambiguity
     paths = {
+        "parsing": os.path.join(base_dir, "segformer_model"),
         "parsing": os.path.join(base_dir, "hf_models", "face-parsing"),
         "age": os.path.join(base_dir, "hf_models", "age-classifier"),
         "gender": os.path.join(base_dir, "hf_models", "gender-classifier"),
